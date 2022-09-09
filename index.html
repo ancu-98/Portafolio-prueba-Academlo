@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- ===== CSS ======= -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- ===== Fontawesome CDN Link ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- ===== Google Fonts Link ======= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Ubuntu+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Seccion de inicio -->
+    <section id="inicio" class="inicio">
+        <div class="section-content">
+            <header>
+                <div class="header-content">
+                    <h2>/A<span>NC</span>U/</h2>
+                    <nav id="nav" class >
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">SKILLS</a></li>
+                            <li><a href="#proyects" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contact" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icon-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentation">
+                <p class="welcome">Bienvenido</p>
+                <h1>Soy <span>Sebastian Bernal</span>, Desarrollador Web FullStack</h1>
+                <p class="description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias alias
+                    similique porro reprehenderit tenetur
+                </p>
+                <a href="#proyects">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- Seccion sobre mi -->
+        <section id="sobremi" class="main-about">
+            <div class="about-img">
+                <img src="./img/man-g0affbec39_1280.svg" alt="">
+            </div>
+            <div class="about-infocontainer">
+                <p class="infocontainer-title">Sobre Mi</p>
+                <h2>Hola, soy <span>Sebastian Bernal</span></h2>
+                <h3>Desarrollo web</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quisquam explicabo soluta, at
+                    dolorem
+                    autem corrupti magnam animi similique earum hic porro voluptatum inventore quas, ut et. Tempore
+                    error quis quia sint distinctio ipsum, fuga tenetur minima cumque, harum dolorum!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quisquam explicabo soluta, at
+                    dolorem
+                    autem corrupti magnam animi similique earum hic porro voluptatum inventore quas, ut et.
+                </p>
+                <a href="#">Descargar CV</a>
+            </div>
+        </section>
+
+        <!-- Seccion Skills  -->
+        <section id="skills" class="main-skills">
+            <h3 class="skills-title"> MIS HABILIDADES </h3>
+            <div class="row">
+                <div class="skill">
+                    <span class="icon"> <img src="./img/css3-logo-24.png" alt="Logo CSS"> </span>
+                    <h4> CSS </h4>
+                    <hr>
+                    <ul class="skills-tag">
+                        <li>Web</li>
+                        <li>CSS</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam obcaecati voluptate, quis
+                        fugiat
+                        possimus alias optio, facilis quasi enim voluptatem
+                    </p>
+                </div>
+                <div class="skill">
+                    <span class="icon"> <img src="./img/html5-logo-24.png" alt="Logo HTML"></span>
+                    <h4> HTML </h4>
+                    <hr>
+                    <ul class="skills-tag">
+                        <li>Web</li>
+                        <li>HTML</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam obcaecati voluptate, quis
+                        fugiat
+                        possimus alias optio, facilis quasi enim voluptatem
+                    </p>
+                </div>
+                <div class="skill">
+                    <span class="icon"> <img src="./img/javascript-logo-24.png" alt="Logo Js"></span>
+                    <h4> JavaScript </h4>
+                    <hr>
+                    <ul class="skills-tag">
+                        <li>Web</li>
+                        <li> JS </li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam obcaecati voluptate, quis
+                        fugiat
+                        possimus alias optio, facilis quasi enim voluptatem
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="skill">
+                    <span class="icon"> <img src="./img/nodejs-logo-24.png" alt="Logo Node js"></span>
+                    <h4> NODE JS </h4>
+                    <hr>
+                    <ul class="skills-tag">
+                        <li>Web</li>
+                        <li> Node JS </li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam obcaecati voluptate, quis
+                        fugiat
+                        possimus alias optio, facilis quasi enim voluptatem
+                    </p>
+                </div>
+                <div class="skill">
+                    <span class="icon"> <img src="./img/ghost-solid-24.png" alt="Gosth"></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="skills-tag">
+                        <li>Web</li>
+                        <li>Graphics</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam obcaecati voluptate, quis
+                        fugiat
+                        possimus alias optio, facilis quasi enim voluptatem
+                    </p>
+                </div>
+                <div class="skill">
+                    <span class="icon"><img src="./img/ghost-solid-24.png" alt="Gosth"></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="skills-tag">
+                        <li>Web</li>
+                        <li>Graphics</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam obcaecati voluptate, quis
+                        fugiat
+                        possimus alias optio, facilis quasi enim voluptatem
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Proyectos -->
+        <section id="proyects" class="main-proyects">
+            <h3 class="proyects-title">MIS PROYECTOS</h3>
+            <div class="row">
+                <div class="proyect">
+                    <div class="overlay"></div>
+                    <img src="./img/proyecto1.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4>Descripcion Proyecto</h4>
+                        <p> Diseño web </p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <div class="overLay"></div>
+                    <img src="./img/proyecto2.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4> BATATA BIT</h4>
+                        <p> Diseño web </p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <div class="overLay"></div>
+                    <img src="./img/proyecto3.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4> BATATA BIT</h4>
+                        <p>
+                            Diseño web
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="proyect">
+                    <div class="overlay"></div>
+                    <img src="./img/proyecto4.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4> Descripcion Proyecto</h4>
+                        <p> Diseño web  </p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <div class="overLay"></div>
+                    <img src="./img/proyecto5.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4> BATATA BIT</h4>
+                        <p>
+                            Diseño web
+                        </p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <div class="overLay"></div>
+                    <img src="./img/proyecto6.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4> BATATA BIT</h4>
+                        <p>
+                            Diseño web
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="proyect">
+                    <div class="overlay"></div>
+                    <img src="./img/proyecto7.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4> Descripcion Proyecto</h4>
+                        <p> Diseño web  </p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <div class="overLay"></div>
+                    <img src="./img/proyecto8.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4> BATATA BIT</h4>
+                        <p>
+                            Diseño web
+                        </p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <div class="overLay"></div>
+                    <img src="./img/proyecto9.jpg" alt="Logo Batatabit">
+                    <div class="info">
+                        <h4> BATATA BIT</h4>
+                        <p>
+                            Diseño web
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Contactos -->
+        <section id="contact" class="main-contact">
+            <h3 class="contact-title"> Contactame </h3>
+            <div class="contact-container-form">
+                <form action="">
+                    <div class="row-middle">
+                        <input type="text" placeholder="Nombre " class="input-middle">
+                        <input type="text" placeholder="Direccion de Email" class="input-middle">
+                    </div>
+                    <div class="row">
+                        <input type="text" placeholder="Tema ..." class="input-full">
+                    </div>
+                    <div class="row">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Dejame Tu Mensaje ... </>" class="input-full"></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar Mensaje" class="btn-send">
+                </form>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Todos los derechos reservados - 2022 </p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
